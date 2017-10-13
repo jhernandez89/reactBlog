@@ -18,7 +18,9 @@
     "url": "https://github.com/jhernandez89/reactBlog/issues"
   },
   "homepage": "https://github.com/jhernandez89/reactBlog#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
   "devDependencies": {
     "axios": "^0.16.2",
     "babel-core": "^6.24.0",

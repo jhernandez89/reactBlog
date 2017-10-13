@@ -1,5 +1,5 @@
 import axios from 'axios';
-const lame = require('../lame.js')
+const lame = require('../../lame.js')
 
 const API_KEY = lame.APIkey
 export const FETCH_POSTS = 'fetch_posts';
