@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/jhernandez89/reactBlog#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "redux-form": "^7.1.2"
   },
   "devDependencies": {
     "axios": "^0.16.2",
