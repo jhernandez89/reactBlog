@@ -1,7 +1,9 @@
 module.exports = {
   entry: './src/main.js',
   output: {
-      filename: 'bundle.js'
+    path: __dirname,
+    publicPath: '/',
+    filename: 'bundle.js'
   },
   module: {
       loaders: [
@@ -13,6 +15,7 @@ module.exports = {
       ]
   },
   devServer: {
+      contentBase: './',
       historyApiFallback: true,
       port: 3000
   }
